@@ -74,3 +74,6 @@ spring.log.*
 # VSCode (opsiyonel)
 # ==============================
 .vscode/
+# IntelliJ IDEA
+.idea/
+*.iml
