@@ -39,15 +39,22 @@ public class SecurityConfig {
 //
 //    @Bean
 //    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+//
 //        http
-//            .csrf(csrf -> csrf.disable())
-//            .authorizeHttpRequests(auth -> auth
-//                .anyRequest().permitAll()
-//            )
-//            .formLogin(form -> form.disable())
-//            .httpBasic(basic -> basic.disable());
+//                // CSRF kapalı (API & Postman için)
+//                .csrf(csrf -> csrf.disable())
+//
+//                // TÜM endpoint'ler serbest
+//                .authorizeHttpRequests(auth -> auth
+//                        .anyRequest().permitAll()
+//                )
+//
+//                // Login sayfasını kapat
+//                .formLogin(form -> form.disable())
+//
+//                // Basic Auth kapalı
+//                .httpBasic(basic -> basic.disable());
 //
 //        return http.build();
 //    }
 //}
-

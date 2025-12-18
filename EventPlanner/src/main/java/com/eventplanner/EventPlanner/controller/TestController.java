@@ -1,13 +1,15 @@
 package com.eventplanner.EventPlanner.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class ApiTestController {
+@RequestMapping("/api")
+public class TestController {
 
-    @GetMapping("/api/test")
+    @GetMapping("/test")
     public String test() {
-        return "API WORKING ✅";
+        return "API OK 🚀";
     }
 }
