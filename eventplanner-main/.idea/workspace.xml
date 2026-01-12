@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87998d96-4662-499b-b202-f95dfe603ced" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/eventplanner3/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/api-gateway2/src/main/java/com/eventplanner/apigateway2/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/api-gateway2/src/main/java/com/eventplanner/apigateway2/controller/GatewayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/api-gateway2/src/main/java/com/eventplanner/apigateway2/security/GatewaySecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/api-gateway2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/booking-service/src/main/java/com/eventplanner/bookingservice/BookingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/booking-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/event-service/src/main/java/com/eventplanner/eventservice/controller/EventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/event-service/src/main/java/com/eventplanner/eventservice/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/event-service/src/main/java/com/eventplanner/eventservice/repository/EventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/event-service/src/main/java/com/eventplanner/eventservice/service/EventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/event-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/payment-service/src/main/java/com/eventplanner/paymentservice/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/payment-service/src/main/java/com/eventplanner/paymentservice/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventplanner3/payment-service/src/main/java/com/eventplanner/paymentservice/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/eventplanner3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/EventPlannerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/booking/client/EventClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/booking/client/PaymentClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/booking/controller/BookingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/booking/model/Booking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/booking/repository/BookingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/booking/service/BookingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/event/controller/EventController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/event/model/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/event/repository/EventRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/event/service/EventService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/payment/controller/PaymentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/payment/model/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/payment/repository/PaymentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/payment/service/PaymentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/user/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/user/dto/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/user/dto/RegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/user/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/user/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/user/security/PasswordConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/user/security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/java/com/eventplanner/EventPlanner/user/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/src/test/java/com/eventplanner/EventPlanner/EventPlannerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/target/classes/com/eventplanner/EventPlanner/EventPlannerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/EventPlanner/target/test-classes/com/eventplanner/EventPlanner/EventPlannerApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventplanner3/eventplanner/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/eventplanner3" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;oner98&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/oner98/eventplanner3.git&quot;,
+    &quot;accountId&quot;: &quot;ac4da401-6aaa-424f-b5ee-eba6170da98c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="37TdvzExBPnBm24qc5XkbPmLzmm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BookingServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGateway2Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.BookingServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DiscoveryServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EventServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PaymentServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="ApiGateway2Application" value="STOPPED" />
+              <entry key="BookingServiceApplication" value="STOPPED" />
+              <entry key="DiscoveryServerApplication" value="STOPPED" />
+              <entry key="EventServiceApplication" value="STOPPED" />
+              <entry key="PaymentServiceApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BookingServiceApplication">
+    <configuration name="BookingServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eventplanner.bookingservice.BookingServiceApplication" />
+      <module name="booking-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eventplanner.bookingservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGateway2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eventplanner.apigateway2.ApiGateway2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="booking-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eventplanner.bookingservice.BookingServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eventplanner.discoveryserver.DiscoveryServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="event-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eventplanner.eventservice.EventServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="payment-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eventplanner.paymentservice.PaymentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BookingServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87998d96-4662-499b-b202-f95dfe603ced" name="Changes" comment="" />
+      <created>1766931231382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766931231382</updated>
+      <workItem from="1766931233214" duration="3277000" />
+      <workItem from="1766938534978" duration="644000" />
+      <workItem from="1766940203152" duration="691000" />
+      <workItem from="1766943772101" duration="12000" />
+      <workItem from="1766988845222" duration="70000" />
+      <workItem from="1766989674451" duration="1971000" />
+      <workItem from="1766991712898" duration="1406000" />
+      <workItem from="1766993589500" duration="9000" />
+      <workItem from="1767086011051" duration="4786000" />
+      <workItem from="1767092678496" duration="23000" />
+      <workItem from="1767103023394" duration="1902000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
