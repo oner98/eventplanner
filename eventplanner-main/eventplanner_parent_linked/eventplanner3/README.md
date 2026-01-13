@@ -2,10 +2,13 @@
 
 ---
 
-```markdown
 # Event Planner Microservices Project
 
-A hands-on exploration of microservices architecture using **Spring Boot** and **Spring Cloud**.
+A hands-on exploration of microservices architecture using Spring Boot and Spring Cloud.
+
+🔗 **GitHub Repository:**  
+https://github.com/oner98/eventplanner.git
+
 
 ---
 
